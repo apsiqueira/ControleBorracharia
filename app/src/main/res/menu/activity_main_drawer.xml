@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_estoque"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Estoque" />
+        <item
+            android:id="@+id/nav_calibragem"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Iniciar Calibragem" />
+        <item
+            android:id="@+id/dataUltimaCalibreagem"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Data de Calibragem" />
+        <item
+            android:id="@+id/nav_gerarOcorrencia"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Gerar Ocorrencia" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
