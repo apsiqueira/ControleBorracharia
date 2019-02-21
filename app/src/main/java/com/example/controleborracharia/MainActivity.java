@@ -1,5 +1,6 @@
 package com.example.controleborracharia;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -81,8 +82,13 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_estoque) {
+           Intent intent= new Intent(getApplicationContext(),EstoqueActivity.class);
+            startActivity(intent);
+
 
         } else if (id == R.id.nav_calibragem) {
+            Intent intent= new Intent(getApplicationContext(),CalibragemActivity.class);
+            startActivity(intent);
 
         } else if (id == R.id.dataUltimaCalibreagem) {
 

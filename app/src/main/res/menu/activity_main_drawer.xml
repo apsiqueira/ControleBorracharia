@@ -7,7 +7,7 @@
         <item
             android:id="@+id/nav_estoque"
             android:icon="@drawable/ic_menu_camera"
-            android:title="Estoque" />
+            android:title="Estoque Borracharia" />
         <item
             android:id="@+id/nav_calibragem"
             android:icon="@drawable/ic_menu_gallery"
@@ -15,7 +15,7 @@
         <item
             android:id="@+id/dataUltimaCalibreagem"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="Data de Calibragem" />
+            android:title="Outra funcionalidade" />
         <item
             android:id="@+id/nav_gerarOcorrencia"
             android:icon="@drawable/ic_menu_manage"
